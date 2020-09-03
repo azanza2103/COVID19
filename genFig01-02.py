@@ -224,8 +224,3 @@ plt.tick_params(labelcolor='none', top=False, bottom=False, left=False, right=Fa
 #plt.tight_layout()
 plt.savefig('Figure01.png',dpi=600)
 plt.show()
-
-for indx in range(3):
-    for ith in range(2):
-        plt.hist(betaeta[indx][ith], density=True)#, bins=[v*step+step/2 for v in range(30)], alpha=0.6, color=colors[3], ec=colors[5])
-        plt.show()
